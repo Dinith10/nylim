@@ -19,4 +19,9 @@ public class PriceController {
 	public ResponseEntity<Price> getPrices() {
 		return ResponseEntity.ok(priceService.getPrices());
 	}
+
+
+
+
+
 }
